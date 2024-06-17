@@ -1,0 +1,383 @@
+body {
+    height: 100%;
+    height: 100%;
+    margin: 0 auto
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    padding: 16px;
+    width: 70%;
+    float: left;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li:hover {
+    height: 43px;
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    height: 13px;
+    padding: 13px;
+    width: 190px;
+    margin-top: 1px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    background: transparent;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 92%;
+
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque p {
+    color: #9a9a9a;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    color: #818181;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.texto-destaque strong {
+    color: #646464;
+
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    right: -35px;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.col-3 h3 {
+    text-align: center;
+    color: #818181;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.col-3 p {
+    text-align: center;
+    color: #9a9a9a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.col-3 strong {
+    text-align: center;
+    color: #646464;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    left: -150px;
+}
+
+.bloco-imagem b,
+p {
+    text-align: left;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+
+.content {
+    width: 1000px;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-4 img {
+    padding-top: 2em;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+.col-4 img:hover {
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+.footer h3 {
+    text-align: left;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer p {
+    text-align: left;
+    color: #c5c5c5;
+    margin: 5%;
+    text-align: left;
+    width: 240px;
+}
+
+.footer {
+    background-image: url(../img/footer.png);
+}
+
+.clock {
+    color: #898989 !important;
+}
+
+.clock::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    float: left;
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local::before,
+.emailico::before,
+.telefoneico::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local::before {
+    background-image: url(../img/local.png);
+}
+
+.emailico::before {
+    background-image: url(../img/email.png);
+}
+
+.telefoneico::before {
+    background-image: url(../img/telefoneico.png);
+}
+
+.footer-2 {
+    display: inline-block;
+    background-image: url(../img/footer2.png);
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer-2 p {
+    padding-top: 18px;
+    width: 420px;
+    display: inline-block;
+}
+
+.redes-sociais-2 {
+    width: 5%;
+    float: right;
+    position: relative;
+    padding-top: 35px;
+    height: 50px;
+}
+
+.redes-sociais-2 ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    padding-left: 1px;
+}
+
+.linkedin {
+    width: 90px;
+}
